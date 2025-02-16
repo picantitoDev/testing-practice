@@ -1,4 +1,4 @@
-const capitalize = require("./main.js")
+const capitalize = require("../src/capitalize.js")
 
 test("First Character is Capitalized", () => {
   const string = capitalize("test")

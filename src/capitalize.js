@@ -4,6 +4,7 @@ function capitalize(string) {
   }
 
   const index = [...string].findIndex((char) => /[a-z]/i.test(char))
+
   return (
     string.slice(0, index) +
     string.charAt(index).toUpperCase() +

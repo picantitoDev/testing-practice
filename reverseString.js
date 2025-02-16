@@ -1,5 +1,5 @@
 function reverseString(string) {
-  return "DCBA"
+  return Array.from(string).reverse().join("")
 }
 
 module.exports = reverseString

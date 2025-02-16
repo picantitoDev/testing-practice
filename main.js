@@ -1,26 +1,17 @@
 function capitalize(string) {
-  if (string.length === 0) {
+  if (string.trim().length === 0) {
     return "no valid characters"
   }
 
-  if (string.charAt(0) === " " || !isNaN(string.charAt(0))) {
-    let index = 0
-    const regex = /[a-z]/i
-    let str = ""
+  const index = [...string].findIndex((char) => /[a-z]/i.test(char))
 
-    for (let i = 0; i < string.length; i++) {
-      if (string.charAt(i).match(regex)) {
-        index = i
-        break
-      }
-    }
-    str = string.slice(0, index)
+  if (index === -1) return "no valid characters"
 
-    return str + string.charAt(index).toUpperCase() + string.slice(index + 1)
-  }
-
-  return string.charAt(0).toUpperCase() + string.slice(1)
+  return (
+    string.slice(0, index) +
+    string.charAt(index).toUpperCase() +
+    string.slice(index + 1)
+  )
 }
 
-console.log(capitalize("   test"))
 module.exports = capitalize

@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1739682557994" clover="3.2.0">
-  <project timestamp="1739682557994" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="4" coveredelements="4" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
+<coverage generated="1739684291169" clover="3.2.0">
+  <project timestamp="1739684291169" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1" elements="25" coveredelements="25" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="main.js" path="/home/pieroarturo/repos/testing-practice/main.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="8" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
+      <metrics statements="14" coveredstatements="14" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <line num="2" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="11" type="cond" truecount="4" falsecount="0"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

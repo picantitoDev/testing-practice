@@ -4,7 +4,6 @@ function capitalize(string) {
   }
 
   const index = [...string].findIndex((char) => /[a-z]/i.test(char))
-
   if (index === -1) return "no valid characters"
 
   return (

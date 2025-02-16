@@ -5,10 +5,11 @@ function capitalize(string) {
 
   if (string.charAt(0) === " " || !isNaN(string.charAt(0))) {
     let index = 0
+    const regex = /[a-z]/i
     let str = ""
 
     for (let i = 0; i < string.length; i++) {
-      if (string.charAt(i) !== " " && isNaN(string.charAt(i))) {
+      if (string.charAt(i).match(regex)) {
         index = i
         break
       }
